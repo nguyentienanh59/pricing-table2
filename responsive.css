@@ -1,16 +1,14 @@
-@media (min-width: 64em) {
+@media (min-width: 1024px) {
 }
-@media (min-width: 46.25em) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .plan-row {
     grid-gap: 55px;
   }
 }
-@media (max-width: 46.1875em) {
+@media (max-width: 767px) {
   .plan-row {
-      grid-template-columns: repeat(auto-fit, 340px);
+    grid-template-columns: repeat(auto-fit, 340px);
     grid-gap: 55px;
     display: grid;
   }
 }
-
-
