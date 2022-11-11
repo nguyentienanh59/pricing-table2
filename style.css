@@ -8,6 +8,7 @@
   --bg-btn: #b6c6c9;
   --bg-adv: #1c94ca;
   --bg-life: #7264bd;
+  --bg-basic:#00bcd4;
   --bg-color:#00bcd4;
   --color-p:#5f727f;
   --color-textbtn:#ffffff;
@@ -19,11 +20,14 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+.bg-basic {
+  background-color: var(--bg-basic);
+}
 .bg-advanced {
-  background-color: var(--bg-adv) !important;
+  background-color: var(--bg-adv);
 }
 .bg-life {
-  background-color: var(--bg-life) !important;
+  background-color: var(--bg-life);
 }
 .plan-row {
   display: grid;
@@ -89,10 +93,6 @@
   color: var(--color-text-small);
   line-height: 20px;
 }
-.plan-header {
-  background-color: var(--bg-color);
-}
-
 .plan-header .title,
 .plan-header .desc {
   font-family: "Montserrat";
